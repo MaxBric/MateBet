@@ -1,5 +1,37 @@
 div 
 {
- text-align: center;
+ text-align: right;
  background-color: #0B4CBC;
+ height: 10%;
+ width: 100%;
+ position: fixed;
+ display: flex; /* contexte sur le parent */
+ flex-direction: column; /* direction d'affichage verticale */
+ justify-content: center; /* alignement vertical */
+}
+
+ul
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+li a 
+{
+   color: white; 
+   display: inline-block;
+   padding: 5px 15px;
+   text-decoration: none;
+}
+
+li a:hover {
+    color: white;
+}
+
+img
+{
+    width: 2%;
+    height: auto;
+    vertical-align: middle;
 }
