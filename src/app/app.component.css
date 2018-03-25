@@ -1,1 +1,21 @@
-* {margin:0; padding:0}
+img {
+    max-width:100%;
+    height:100%;
+    }
+
+div#information
+{
+    background-color: #2980B9;
+    text-align: center;
+}
+div#information img
+{
+    -webkit-border-radius:50px;
+    -moz-border-radius:50px;
+    border-radius:50px;
+    width:90px;
+    height:90px;
+    margin:5%;
+    margin-bottom: 1%;
+    margin-top: 1%;
+}
