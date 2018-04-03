@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  public betting: boolean = false;
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  public displayBet(): void {
+    this.betting = true;
   }
 
 }
